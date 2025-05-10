@@ -1,0 +1,92 @@
+[
+  {
+    "id": "paper1",
+    "title": "A Review on Interval Data Clustering Algorithms",
+    "authors": "de Amorim R.C., Mirkin B.",
+    "venue": "Knowledge-Based Systems",
+    "year": 2018,
+    "link": "https://doi.org/10.1016/j.knosys.2018.05.038",
+    "keywords": ["Interval Data", "Clustering", "Survey"]
+  },
+  {
+    "id": "paper2",
+    "title": "Interval-Valued Data Analysis: Foundations and Applications",
+    "authors": "Zhang X., Lu W., Wang H.",
+    "venue": "Knowledge and Information Systems",
+    "year": 2018,
+    "link": "https://doi.org/10.1007/s10115-018-1196-8",
+    "keywords": ["Interval Data", "Foundations", "Applications"]
+  },
+  {
+    "id": "paper3",
+    "title": "Clustering Interval-Valued Data Using the Similarity and Dissimilarity of Interval Numbers",
+    "authors": "Xiang G., Li J.",
+    "venue": "IEEE Transactions on Fuzzy Systems",
+    "year": 2020,
+    "link": "https://doi.org/10.1109/TFS.2019.2909923",
+    "keywords": ["Interval Data", "Clustering", "Similarity Measures"]
+  },
+  {
+    "id": "paper4",
+    "title": "Understanding Consumer Preference Using Machine Learning: A Survey",
+    "authors": "Shahraki A., Ghasemaghaei M.",
+    "venue": "Expert Systems with Applications",
+    "year": 2020,
+    "link": "https://doi.org/10.1016/j.eswa.2020.113110",
+    "keywords": ["Consumer Behavior", "Machine Learning", "Survey"]
+  },
+  {
+    "id": "paper5",
+    "title": "Consumer Behavior Modeling with Support Vector Machines",
+    "authors": "Chiu C.M., Fang Y.H.",
+    "venue": "Expert Systems with Applications",
+    "year": 2010,
+    "link": "https://doi.org/10.1016/j.eswa.2010.01.080",
+    "keywords": ["Consumer Behavior", "SVM", "Modeling"]
+  },
+  {
+    "id": "paper6",
+    "title": "Interval-Valued Fuzzy Clustering Algorithm and Its Application to Pattern Recognition",
+    "authors": "Zhao X., Wang Y.",
+    "venue": "Information Sciences",
+    "year": 2018,
+    "link": "https://doi.org/10.1016/j.ins.2018.05.032",
+    "keywords": ["Interval Data", "Fuzzy Clustering", "Pattern Recognition"]
+  },
+  {
+    "id": "paper7",
+    "title": "A Survey of Similarity Measures for Interval-Valued Data",
+    "authors": "Li J., Xiang G.",
+    "venue": "Information Sciences",
+    "year": 2022,
+    "link": "https://doi.org/10.1016/j.ins.2022.04.035",
+    "keywords": ["Interval Data", "Similarity", "Survey"]
+  },
+  {
+    "id": "paper8",
+    "title": "Machine Learning Approaches for Consumer Preference Prediction: An Overview",
+    "authors": "Zhang Y., Wei J.",
+    "venue": "Decision Support Systems",
+    "year": 2019,
+    "link": "https://doi.org/10.1016/j.dss.2019.05.005",
+    "keywords": ["Consumer Preference", "Prediction", "Machine Learning"]
+  },
+  {
+    "id": "paper9",
+    "title": "Analysis of Customer Satisfaction Based on Interval Data",
+    "authors": "Wang F., Zhang Y.",
+    "venue": "Soft Computing",
+    "year": 2018,
+    "link": "https://doi.org/10.1007/s00500-018-3505-x",
+    "keywords": ["Customer Satisfaction", "Interval Data", "Application"]
+  },
+  {
+    "id": "paper10",
+    "title": "Consumer Choice Prediction Based on Machine Learning Techniques",
+    "authors": "Lin H., Chen X.",
+    "venue": "Technological Forecasting and Social Change",
+    "year": 2020,
+    "link": "https://doi.org/10.1016/j.techfore.2020.120357",
+    "keywords": ["Consumer Choice", "Prediction", "Machine Learning"]
+  }
+]
