@@ -20,3 +20,25 @@ define({ entries : {
   }
 });
 
+define({ entries : {
+  "Abello2013Modular": {
+    "abstract": "...",
+    "address": "...",
+    "author": "...",
+    "doi": "...",
+    "issn": "...",
+    "journal": "...",
+    "keywords": "...",
+    "number": "...",
+    "pages": "...",
+    "publisher": "...",
+    "references": "...",
+    "series": "...",
+    "title": "...",
+    "type": "article",
+    "volume": "...",
+    "year": "2013"
+  }
+}});
+
+var bib = { entries: define.arguments[0].entries };
