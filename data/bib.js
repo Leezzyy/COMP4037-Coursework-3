@@ -1,4 +1,19 @@
 ﻿define({ entries : {
+     "Beck2016Visual": {
+        "abstract": "Bibiographic data such as collections of scientific articles and citation networks have been studied extensively in information visualization and visual analytics research. Powerful systems have been built to support various types of bibliographic analysis, but they require some training and cannot be used to disseminate the insights gained. In contrast, we focused on developing a more accessible visual analytics system, called SurVis, that is ready to disseminate a carefully surveyed literature collection. The authors of a survey may use our Web-based system to structure and analyze their literature database. Later, readers of the survey can obtain an overview, quickly retrieve specific publications, and reproduce or extend the original bibliographic analysis. Our system employs a set of selectors that enable users to filter and browse the literature collection as well as to control interactive visualizations. The versatile selector concept includes selectors for textual search, filtering by keywords and meta-information, selection and clustering of similar publications, and following citation links. Agreement to the selector is represented by word-sized sparkline visualizations seamlessly integrated into the user interface. Based on an analysis of the analytical reasoning process, we derived requirements for the system. We developed the system in a formative way involving other researchers writing literature surveys. A questionnaire study with 14 visual analytics experts confirms that SurVis meets the initially formulated requirements.",
+        "author": "Beck, Fabian and Koch, Sebastian and Weiskopf, Daniel",
+        "doi": "10.1109/TVCG.2015.2467757",
+        "journal": "IEEE Transactions on Visualization and Computer Graphics",
+        "keywords": "type:system, visual_analytics, sparklines, information_retrieval, clustering, literature_browser",
+        "number": "01",
+        "publisher": "IEEE",
+        "series": "TVCG",
+        "title": "Visual Analysis and Dissemination of Scientific Literature Collections with {SurVis}",
+        "type": "article",
+        "url": "http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/vast15-survis.pdf",
+        "volume": "22",
+        "year": "2016"
+    }，
     "Abello2013Modular": {
         "abstract": "Large dynamic networks are targets of analysis in many fields. Tracking temporal changes at scale in these networks is challenging due in part to the fact that small changes can be missed or drowned-out by the rest of the network. For static networks, current approaches allow the identification of specific network elements within their context. However, in the case of dynamic networks, the user is left alone with finding salient local network elements and tracking them over time. In this work, we introduce a modular DoI specification to flexibly define what salient changes are and to assign them a measure of their importance in a time-varying setting. The specification takes into account neighborhood structure information, numerical attributes of nodes/edges, and their temporal evolution. A tailored visualization of the DoI specification complements our approach. Alongside a traditional node-link view of the dynamic network, it serves as an interface for the interactive definition of a DoI function. By using it to successively refine and investigate the captured details, it supports the analysis of dynamic networks from an initial view until pinpointing a user's analysis goal. We report on applying our approach to scientific co-authorship networks and give concrete results for the DBLP dataset.",
         "address": "Los Alamitos, CA, USA",
