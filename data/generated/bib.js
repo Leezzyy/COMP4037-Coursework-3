@@ -149,4 +149,4 @@ const generatedBibEntries = {
         "volume": "",
         "year": "2020"
     }
-}
+};
