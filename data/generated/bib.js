@@ -1,111 +1,152 @@
-const generatedBibEntries = {
-  "Raza2024Consumer": {
-    "abstract": "In today's environment, consumers are more likely to make purchases that are well-informed and intelligent, which calls for inventive marketing strategies. This research explores the link between consumer preferences and demographics in online shopping of electronic products. A survey of 400 Indian customers was conducted. Findings show significant relationships between demographics and preferences for purchasing electronics online.",
-    "author": "Raza, Md Danish and Khan, P Hameem and Palani, A",
-    "doi": "10.1109/IIPEM62726.2024.10925701",
-    "journal": "Proc. 2024 International Conference on Innovative Intelligent Industrial Production and Engineering Management (IIPEM)",
-    "keywords": "Consumer Preferences, Consumer Behaviour, Online Shopping, Electronic Products",
-    "title": "Consumer Preferences Towards Online Shopping of Electronic Products",
-    "type": "inproceedings",
-    "year": "2024"
-  },
-  
-  "Hu2023Customer": {
-    "abstract": "This paper presents a dynamic clustering method for interval-valued customer data, improving cluster initialization by using dense grids for center selection. Experimental comparisons show superior clustering performance over traditional methods.",
-    "author": "Hu, Yihan",
-    "doi": "10.1109/ICIICS59993.2023.10421290",
-    "journal": "Proc. 2023 International Conference on Intelligent Information and Communication Systems (ICIICS)",
-    "keywords": "customer market analysis, interval value data dynamics, clustering algorithm, K-means algorithm",
-    "title": "Customer Market Analysis Based on Interval Value Data Dynamic Clustering Algorithm",
-    "type": "inproceedings",
-    "year": "2023"
-  },
-
-  "Durso2023FuzzySpatial": {
-    "abstract": "This paper proposes fuzzy clustering methods for spatial interval-valued data based on PAM algorithm. Spatial contiguity is considered, and experimental results show improved clustering quality and coherence.",
-    "author": "D’Urso, Pierpaolo and De Giovanni, Livia and Federico, Lorenzo and Vitale, Vincenzina",
-    "doi": "10.1016/j.spasta.2023.100764",
-    "journal": "Spatial Statistics",
-    "keywords": "Fuzzy clustering, Spatial data, Interval-valued data, PAM algorithm",
-    "title": "Fuzzy clustering of spatial interval-valued data",
-    "type": "article",
-    "year": "2023"
-  },
-
-  "Li2022IntervalFeatureSelection": {
-    "abstract": "This study proposes an interval dominance-based feature selection (IDFS) method for interval-valued ordered data, introducing IDD and IOD measures. Experimental evaluation confirms improved feature selection and classification performance.",
-    "author": "Li, Wentao and Zhou, Haoxiang and Xu, Weihua and Wang, Xi-Zhao and Pedrycz, Witold",
-    "doi": "10.1109/TNNLS.2022.3184120",
-    "journal": "IEEE Transactions on Neural Networks and Learning Systems",
-    "keywords": "Dominance-based rough set, Feature selection, Interval value, Ordered information system",
-    "title": "Interval Dominance-Based Feature Selection for Interval-Valued Ordered Data",
-    "type": "article",
-    "year": "2022"
-  },
-
-  "Comas2025IntervalFuzzyPredicates": {
-    "abstract": "This paper presents the Type-2 Label-based Fuzzy Predicate Classification (T2-LFPC) method, using interval-valued fuzzy predicates for interpretable data classification. Experiments on 14 datasets demonstrate enhanced performance and interpretability.",
-    "author": "Comas, Diego S. and Meschino, Gustavo J. and Ballarin, Virginia L.",
-    "doi": "10.1016/j.ins.2025.122033",
-    "journal": "Information Sciences",
-    "keywords": "Interval-valued fuzzy logic, Data classification, Knowledge discovery, Membership functions",
-    "title": "Interval-valued fuzzy predicates from labeled data: An approach to data classification and knowledge discovery",
-    "type": "article",
-    "year": "2025"
-  },
-
-  "Ma2024MultiviewClassification": {
-    "abstract": "This article addresses learning from interval-valued data by proposing the Multiview Interval Information Extraction (Mv-IIE) approach, improving classification accuracy through multiview learning. Experimental results validate the method's superiority.",
-    "author": "Ma, Guangzhi and Lu, Jie and Fang, Zhen and Liu, Feng and Zhang, Guangquan",
-    "doi": "10.1109/TNNLS.2024.3421657",
-    "journal": "IEEE Transactions on Neural Networks and Learning Systems",
-    "keywords": "Classification, Interval-valued data, Machine learning, Multiview learning",
-    "title": "Multiview Classification Through Learning From Interval-Valued Data",
-    "type": "article",
-    "year": "2024"
-  },
-
-  "Kabir2017OverlapSimilarity": {
-    "abstract": "This paper proposes a novel similarity measure for interval-valued data based on a bi-directional overlapping ratio. The method offers enhanced sensitivity to width changes compared to Jaccard and Dice measures.",
-    "author": "Kabir, Shaily and Wagner, Christian and Havens, Timothy C. and Anderson, Derek T. and Aickelin, Uwe",
-    "doi": "10.1109/FUZZ-IEEE.2017.8015623",
-    "journal": "Proc. 2017 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)",
-    "keywords": "Similarity measure, Interval-valued data, Overlapping ratio, Uncertainty modeling",
-    "title": "Novel similarity measure for interval-valued data based on overlapping ratio",
-    "type": "inproceedings",
-    "year": "2017"
-  },
-
-  "Huanghua2010SVMDecisionTree": {
-    "abstract": "This paper proposes an attribute interval optimization method combining SVM and decision tree learning to enhance classification performance. It focuses on optimizing decision surfaces and improving segmentation strategies.",
-    "author": "Huanghua and Zhang, Dexian",
-    "doi": "10.1109/ICETC.2010.5529640",
-    "journal": "Proc. 2010 2nd International Conference on Education Technology and Computer (ICETC)",
-    "keywords": "SVM, Decision tree learning, Classification optimization, Attribute interval partitioning",
-    "title": "Research on attribute interval optimization method for segmentation based SVM and the Decision Tree Learning",
-    "type": "inproceedings",
-    "year": "2010"
-  },
-
-  "Gunn2020IAA": {
-    "abstract": "This study proposes a similarity measure for aggregated fuzzy numbers from intervals using the Interval Agreement Approach (IAA), incorporating multiple features weighted by principal component analysis.",
-    "author": "Gunn, Justin Kane and Khorshidi, Hadi Akbarzadeh and Aickelin, Uwe",
-    "doi": "10.1016/j.socl.2020.100002",
-    "journal": "Soft Computing Letters",
-    "keywords": "Similarity measure, Fuzzy logic, Interval agreement approach, Interval-valued data, Uncertainty",
-    "title": "Similarity measure for aggregated fuzzy numbers from interval-valued data",
-    "type": "article",
-    "year": "2020"
-  },
-
-  "Cross2020FuzzySetSimilarity": {
-    "abstract": "This paper explores fuzzy set similarity measures for sentence similarity tasks by directly comparing fuzzy words. The approach achieves comparable performance to ontology-based methods while simplifying the process.",
-    "author": "Cross, Valeria and Mokrenko, Valeria and Crockett, Keeley and Adel, Naeemeh",
-    "doi": "10.1109/FUZZ48607.2020.9177836",
-    "journal": "Proc. 2020 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)",
-    "keywords": "Ontology, Semantic similarity, Fuzzy set similarity, Sentence similarity measures, Human perception",
-    "title": "Using Fuzzy Set Similarity in Sentence Similarity Measures",
-    "type": "inproceedings",
-    "year": "2020"
-  }
-};
+{
+    "Raza2024Consumer": {
+        "abstract": "In today's environment, consumers are more likely to make purchases that are well-informed and intelligent, which calls for inventive marketing strategies. Internet marketing strategies are undergoing a transformation as a result of the fact that they are more expedient and convenient than traditional marketing techniques when it comes to reaching out to target customers. Electronic goods have been selected for the purpose of this inquiry. The major objective of this research is to explore the link between consumer preferences and demographics. Specifically, the study will focus on customer preferences regarding preferred electronic items, preferred payment methods, and preferred online merchants for the purchase of electronic products. The sample size consisted of four hundred Indian customers who had purchased electronic goods from online shops. During the course of this inquiry, both primary and secondary sources of information were used. For the purpose of analysis, many methods were used, including judgment sampling, chi square, and cross tabulation. According to the findings of the chi square analysis, there is a significant association between the preferences of customers for purchasing electrical devices online and their demographic classifications. The link between consumer preferences and demographics is the subject of this study, which is one of the few studies dealing with the topic. In order to protect themselves from fraudulent transactions, customers will profit from the finding. Furthermore, it will be of assistance to organizations that engage in e-commerce in better comprehending the preferences of their customers and designing their pricing plans.",
+        "author": "Raza, Md Danish and Khan, P Hameem and Palani, A",
+        "doi": "10.1109/IIPEM62726.2024.10925701",
+        "journal": "Proc. 2024 International Conference on Intelligent and Innovative Practices in Engineering & Management (IIPEM)",
+        "keywords": "Consumer Preferences, Consumer Behaviour, Online Shopping, Electronic Products",
+        "number": "01",
+        "publisher": "IEEE",
+        "series": "",
+        "title": "Consumer Preferences Towards Online Shopping of Electronic Products",
+        "type": "inproceedings",
+        "url": "https://ieeexplore.ieee.org/document/10925701",
+        "volume": "",
+        "year": "2024"
+    },
+    "Hu2023Customer": {
+        "abstract": "The traditional K-means clustering center initial value algorithm does not perform well in massive data. In order to improve the initialization efficiency of the clustering center, this article adopted the idea of dynamic clustering algorithm for inter region value data to classify the data, and selected the center of dense grids as the initial clustering center based on the distribution characteristics of the data. This method can ensure that the cluster center is located in a high-density area rather than being overly concentrated, allowing the K-Means algorithm to quickly and efficiently initialize the cluster center when processing massive data. Finally, this article compared and analyzed the performance of data clustering methods using traditional K-means algorithm and K-means++algorithm through simulation experiments. The evaluation indicators of the experiment are CR index, Silhouette Score, and accuracy. From the comprehensive analysis of three indicators, it can be seen that the performance of customer market analysis data based on this algorithm was superior to other algorithms (Silhouette Score: this algorithm was 0.1249 higher than K means++and 0.4903 higher than K-means algorithm). The results indicated that compared with traditional clustering methods, clustering methods had significant advantages in the clustering process.",
+        "author": "Yihan Hu",
+        "doi": "10.1109/ICIICS59993.2023.10421290",
+        "journal": "Proc. 2023 International Conference on Intelligent Information and Communication Systems (ICIICS)",
+        "keywords": "customer market analysis, interval value data dynamics, clustering algorithm, K-means algorithm",
+        "number": "02",
+        "publisher": "IEEE",
+        "series": "",
+        "title": "Customer Market Analysis Based on Interval Value Data Dynamic Clustering Algorithm",
+        "type": "inproceedings",
+        "url": "https://ieeexplore.ieee.org/document/10421290",
+        "volume": "",
+        "year": "2023"
+    },
+    "Durso2023Fuzzy": {
+        "abstract": "In this paper, two fuzzy clustering methods for spatial intervalvalued data are proposed, i.e. the fuzzy C -Medoids clustering of spatial interval-valued data with and without entropy regularization. Both methods are based on the Partitioning Around Medoids (PAM) algorithm, inheriting the great advantage of obtaining non-fictitious representative units for each cluster. In both methods, the units are endowed with a relation of contiguity, represented by a symmetric binary matrix. This can be intended both as contiguity in a physical space and as a more abstract notion of contiguity. The performances of the methods are proved by simulation, testing the methods with different contiguity matrices associated to natural clusters of units. In order to show the effectiveness of the methods in empirical studies, three applications are presented: the clustering of municipalities based on interval-valued pollutants levels, the clustering of European fact-checkers based on interval-valued data on the average number of impressions received by their tweets and the clustering of the residential zones of the city of Rome based on the interval of price values.",
+        "author": "D\u2019Urso, Pierpaolo and De Giovanni, Livia and Federico, Lorenzo and Vitale, Vincenzina",
+        "doi": "10.1016/j.spasta.2023.100764",
+        "journal": "Spatial Statistics",
+        "keywords": "Spatial imprecise data Fuzzy clustering Partitioning around medoids Entropy Environmental data Networks",
+        "number": "03",
+        "publisher": "Elsevier",
+        "series": "",
+        "title": "Fuzzy clustering of spatial interval-valued data",
+        "type": "article",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211675323000398",
+        "volume": "53",
+        "year": "2023"
+    },
+    "Li2022FeatureSelection": {
+        "abstract": "Dominance-based rough approximation discovers inconsistencies from ordered criteria and satisfies the requirement of the dominance principle between single-valued domains of condition attributes and decision classes. When the ordered decision system (ODS) is no longer single-valued, how to utilize the dominance principle to deal with multivalued ordered data is a promising research direction, and it is the most challenging step to design a feature selection algorithm in interval-valued ODS (IV-ODS). In this article, we first present novel thresholds of interval dominance degree (IDD) and interval overlap degree (IOD) between interval values to make the dominance principle applicable to an IV-ODS, and then, the interval-valued dominance relation in the IV-ODS is constructed by utilizing the above two developed parameters. Based on the proposed interval-valued dominance relation, the interval-valued dominance-based rough set approach (IV-DRSA) and their corresponding properties are investigated. Moreover, the interval dominance-based feature selection rules based on IV-DRSA are provided, and the relevant algorithms for deriving the interval-valued dominance relation and the feature selection methods are established in IV-ODS. To illustrate the effectiveness of the parameters variation on feature selection rules, experimental evaluation is performed using 12 datasets coming from the University of California-Irvine (UCI) repository.",
+        "author": "Li, Wentao and Zhou, Haoxiang and Xu, Weihua and Wang, Xi-Zhao and Pedrycz, Witold",
+        "doi": "10.1109/TNNLS.2022.3184120",
+        "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+        "keywords": "Dominance-based rough set, feature selection, interval value, ordered information system (OIS), rough approximation.",
+        "number": "04",
+        "publisher": "IEEE",
+        "series": "",
+        "title": "Interval Dominance-Based Feature Selection for Interval-Valued Ordered Data",
+        "type": "article",
+        "url": "https://ieeexplore.ieee.org/document/9805682/",
+        "volume": "",
+        "year": "2022"
+    },
+    "Comas2025FuzzyPredicate": {
+        "abstract": "Interpretable data classifiers play a significant role in providing transparency in the decisionmaking process by ensuring accountability and auditability, enhancing model understanding, and extracting new information that expands the field of knowledge in a discipline while effectively handling large datasets. This paper introduces the Type-2 Label-based Fuzzy Predicate Classification (T2-LFPC) method, in which interval-valued fuzzy predicates are used for interpretable data classification. The proposed approach begins by clustering the data within each class, associating clusters with collections of common attributes, and identifying class prototypes. Interval-valued membership functions and predicates are then derived from these prototypes, leading to the creation of an interpretable classifier. Empirical evaluations on 14 datasets, both public and synthetic, are presented to demonstrate the superior performance of T2-LFPC based on the accuracy and Jaccard index. The proposed method enables linguistic descriptions of classes, insight into attribute semantics, class property definitions, and an understanding of data space partitioning. This innovative approach enhances knowledge discovery by addressing the challenges posed by the complexity and size of modern datasets.",
+        "author": "Comas, Diego S. and Meschino, Gustavo J. and Ballarin, Virginia L.",
+        "doi": "10.1016/j.ins.2025.122033",
+        "journal": "Information Sciences",
+        "number": "05",
+        "keywords": "Interval-valued fuzzy logic Data classification Knowledge discovery Membership functions",
+        "publisher": "Elsevier",
+        "series": "",
+        "title": "Interval-valued fuzzy predicates from labeled data: An approach to data classification and knowledge discovery",
+        "type": "article",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0020025525001653",
+        "volume": "660",
+        "year": "2025"
+    },
+    "Ma2024MultiviewClassification": {
+        "abstract": "The classification problem concerning crisp-valued data has been well resolved. However, interval-valued data, where all of the observations’ features are described by intervals, are also a common data type in real-world scenarios. For example, the data extracted by many measuring devices are not exact numbers but intervals. In this article, we focus on a highly challenging problem called learning from interval-valued data (LIND), where we aim to learn a classifier with high performance on interval-valued observations. First, we obtain the estimation error bound of the LIND problem based on the Rademacher complexity. Then, we give the theoretical analysis to show the strengths of multiview learning on classification problems, which inspires us to construct a new algorithm called multiview interval information extraction (Mv-IIE) approach for improving classification accuracy on interval-valued data. The experiment comparisons with several baselines on both synthetic and real-world datasets illustrate the superiority of the proposed framework in handling interval-valued data. Moreover, we describe an application of Mv-IIE that we can prevent data privacy leakage by transforming crisp-valued (raw) data into interval-valued data.",
+        "author": "Ma, Guangzhi and Lu, Jie and Fang, Zhen and Liu, Feng and Zhang, Guangquan",
+        "doi": "10.1109/TNNLS.2024.3421657",
+        "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+        "keywords": "Classification, interval-valued data, machine learning, multiview learning.",
+        "number": "06",
+        "publisher": "IEEE",
+        "series": "",
+        "title": "Multiview Classification Through Learning From Interval-Valued Data",
+        "type": "article",
+        "url": "https://ieeexplore.ieee.org/document/10603435/",
+        "volume": "",
+        "year": "2024"
+    },
+    "Kabir2017Overlap": {
+        "abstract": "In computing the similarity of intervals, current similarity measures such as the commonly used Jaccard and Dice measures are at times not sensitive to changes in the width of intervals, producing equal similarities for substantially different pairs of intervals. To address this, we propose a new similarity measure that uses a bi-directional approach to determine interval similarity. For each direction, the overlapping ratio of the given interval in a pair with the other interval is used as a measure of uni-directional similarity. We show that the proposed measure satisfies all common properties of a similarity measure, while also being invariant in respect to multiplication of the interval endpoints and exhibiting linear growth in respect to linearly increasing overlap. Further, we compare the behavior of the proposed measure with the highly popular Jaccard and Dice similarity measures, highlighting that the proposed approach is more sensitive to changes in interval widths. Finally, we show that the proposed similarity is bounded by the Jaccard and the Dice similarity, thus providing a reliable alternative.",
+        "author": "Kabir, Shaily and Wagner, Christian and Havens, Timothy C. and Anderson, Derek T. and Aickelin, Uwe",
+        "doi": "10.1109/FUZZ-IEEE.2017.8015623",
+        "journal": "Proc. 2017 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)",
+        "keywords": "",
+        "number": "07",
+        "publisher": "IEEE",
+        "series": "",
+        "title": "Novel Similarity Measure for Interval-Valued Data Based on Overlapping Ratio",
+        "type": "inproceedings",
+        "url": "https://ieeexplore.ieee.org/document/8015623",
+        "volume": "",
+        "year": "2017"
+    },
+    "Huanghua2010Attribute": {
+        "abstract": "In recent years, statistical learning theory ( for short SLT)and support vector machine(for short SVM) has become an international field of machine learning new hotspot. Decision tree classification learning algorithm is one of the most widely used and very practical inductive reasoning method, In machine learning, data mining, signal processing, intelligent control, artificial intelligence area has a very important theoretical meaning and practical value. It has been successfully applied Wide range of fields from learning medical diagnosis to assessment the credit risk of learning loan applications. Based on Decision Tree Learning and SVM has obvious advantages in their respective, the integration of decision tree and SVM learning will solve the problems that exist between the two effective ways to improve learning ability and decision tree classification performance, give full play to the advantages of both to make up for both insufficient to resolve the two difficult to solve long-standing problems. This paper based on support vector machine classification surface model and support vector point distribution, with the decision tree Classification surface and support vector machine Classification surface effective approximation as the basic starting point, explore new ways on the fusion of decision tree and SVM. Focused study based on support vector points and categories surface shape characteristics' attribute interval optimization method for segmentation in order to achieve the performance of decision tree optimization.",
+        "author": "Huanghua and Zhang, Dexian",
+        "doi": "10.1109/ICETC.2010.5529640",
+        "journal": "Proc. 2010 2nd International Conference on Education Technology and Computer (ICETC)",
+        "keywords": "SVM; decision tree leaning ;fusing leaning; optimization classification sUrface ; attribute interval partitioning optimization",
+        "number": "08",
+        "publisher": "IEEE",
+        "series": "",
+        "title": "Research on Attribute Interval Optimization Method for Segmentation Based SVM and the Decision Tree Learning",
+        "type": "inproceedings",
+        "url": "https://ieeexplore.ieee.org/document/5529640/",
+        "volume": "",
+        "year": "2010"
+    },
+    "Gunn2020FuzzySimilarity": {
+        "abstract": "This paper presents a method to compute the degree of similarity between two aggregated fuzzy numbers from intervals using the Interval Agreement Approach (IAA). The similarity measure proposed within this study contains several features and attributes, of which are novel to aggregated fuzzy numbers. The attributes completely redeﬁned or modiﬁed within this study include area, perimeter, centroids, quartiles and the agreement ratio. The recommended weighting for each feature has been learned using Principal Component Analysis (PCA). Furthermore, an illustrative example is provided to detail the application and potential future use of the similarity measure.",
+        "author": "Gunn, Justin Kane and Khorshidi, Hadi Akbarzadeh and Aickelin, Uwe",
+        "doi": "10.1016/j.socl.2020.100002",
+        "journal": "Soft Computing Letters",
+        "keywords": "Similarity measure Fuzzy logic Interval agreement approach IAA, Interval-valued data Uncertainty",
+        "number": "09",
+        "publisher": "Elsevier",
+        "series": "",
+        "title": "Similarity Measure for Aggregated Fuzzy Numbers from Interval-Valued Data",
+        "type": "article",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666222120300010",
+        "volume": "1",
+        "year": "2020"
+    },
+    "Cross2020SentenceSimilarity": {
+        "abstract": "Sentence similarity measures the similarity between two blocks of text. A semantic similarity measure between individual pairs of words, each taken from the two blocks of text, has been used in STASIS. Word similarity is measured based on the distance between the words in the WordNet ontology. If the vague words, referred to as fuzzy words, are not found in WordNet, their semantic similarity cannot be used in the sentence similarity measure. FAST and FUSE transform these vague words into fuzzy set representations, type-1 and type-2 respectively, to create ontological structures where the same semantic similarity measure used in WordNet can then be used. This paper investigates eliminating the process of building an ontology with the fuzzy words and instead directly using fuzzy set similarity measures between the fuzzy words in the task of sentence similarity measurement. Their performance is evaluated based on their correlation with human judgments of sentence similarity. In addition, statistical tests showed there is not any significant difference in the sentence similarity values produced using fuzzy set similarity measures between fuzzy sets representing fuzzy words and using FAST semantic similarity within ontologies representing fuzzy words.",
+        "author": "Cross, Valeria and Mokrenko, Valeria and Crockett, Keeley and Adel, Naeemeh",
+        "doi": "10.1109/FUZZ48607.2020.9177836",
+        "journal": "Proc. 2020 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)",
+        "keywords": "ontology, semantic similarity, fuzzy set similarity measures, human perception, sentence similarity measures",
+        "number": "10",
+        "publisher": "IEEE",
+        "series": "",
+        "title": "Using Fuzzy Set Similarity in Sentence Similarity Measures",
+        "type": "inproceedings",
+        "url": "https://ieeexplore.ieee.org/document/9177836/",
+        "volume": "",
+        "year": "2020"
+    }
+}
