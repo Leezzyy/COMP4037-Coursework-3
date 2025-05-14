@@ -9,7 +9,7 @@
         "publisher": "IEEE",
         "series": "",
         "title": "Consumer Preferences Towards Online Shopping of Electronic Products",
-        "type": "inproceedings",
+        "type": "conference",
         "url": "https://ieeexplore.ieee.org/document/10925701",
         "volume": "",
         "year": "2024"
@@ -24,7 +24,7 @@
         "publisher": "IEEE",
         "series": "",
         "title": "Customer Market Analysis Based on Interval Value Data Dynamic Clustering Algorithm",
-        "type": "inproceedings",
+        "type": "conference",
         "url": "https://ieeexplore.ieee.org/document/10421290",
         "volume": "",
         "year": "2023"
@@ -99,7 +99,7 @@
         "publisher": "IEEE",
         "series": "",
         "title": "Novel Similarity Measure for Interval-Valued Data Based on Overlapping Ratio",
-        "type": "inproceedings",
+        "type": "conference",
         "url": "https://ieeexplore.ieee.org/document/8015623",
         "volume": "",
         "year": "2017"
@@ -114,7 +114,7 @@
         "publisher": "IEEE",
         "series": "",
         "title": "Research on Attribute Interval Optimization Method for Segmentation Based SVM and the Decision Tree Learning",
-        "type": "inproceedings",
+        "type": "conference",
         "url": "https://ieeexplore.ieee.org/document/5529640/",
         "volume": "",
         "year": "2010"
@@ -144,7 +144,7 @@
         "publisher": "IEEE",
         "series": "",
         "title": "Using Fuzzy Set Similarity in Sentence Similarity Measures",
-        "type": "inproceedings",
+        "type": "conference",
         "url": "https://ieeexplore.ieee.org/document/9177836/",
         "volume": "",
         "year": "2020"
