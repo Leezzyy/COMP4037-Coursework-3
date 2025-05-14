@@ -12,8 +12,7 @@ const generatedBibEntries = {
         "type": "conference",
         "url": "https://ieeexplore.ieee.org/document/10925701",
         "volume": "",
-        "year": "2024",
-        "img": "data/papers_img/paper1_fig.jpg" 
+        "year": "2024"
     },
     "Hu2023Customer": {
         "abstract": "The traditional K-means clustering center initial value algorithm does not perform well in massive data. In order to improve the initialization efficiency of the clustering center, this article adopted the idea of dynamic clustering algorithm for inter region value data to classify the data, and selected the center of dense grids as the initial clustering center based on the distribution characteristics of the data. This method can ensure that the cluster center is located in a high-density area rather than being overly concentrated, allowing the K-Means algorithm to quickly and efficiently initialize the cluster center when processing massive data. Finally, this article compared and analyzed the performance of data clustering methods using traditional K-means algorithm and K-means++algorithm through simulation experiments. The evaluation indicators of the experiment are CR index, Silhouette Score, and accuracy. From the comprehensive analysis of three indicators, it can be seen that the performance of customer market analysis data based on this algorithm was superior to other algorithms (Silhouette Score: this algorithm was 0.1249 higher than K means++and 0.4903 higher than K-means algorithm). The results indicated that compared with traditional clustering methods, clustering methods had significant advantages in the clustering process.",
