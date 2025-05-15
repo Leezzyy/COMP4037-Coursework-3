@@ -57,7 +57,7 @@ const generatedBibEntries = {
         "type": "article",
         "url": "https://ieeexplore.ieee.org/document/9805682/",
         "volume": "",
-        "year": "2022"
+        "year": "2023"
     },
     "Comas2025FuzzyPredicate": {
         "abstract": "Interpretable data classifiers play a significant role in providing transparency in the decisionmaking process by ensuring accountability and auditability, enhancing model understanding, and extracting new information that expands the field of knowledge in a discipline while effectively handling large datasets. This paper introduces the Type-2 Label-based Fuzzy Predicate Classification (T2-LFPC) method, in which interval-valued fuzzy predicates are used for interpretable data classification. The proposed approach begins by clustering the data within each class, associating clusters with collections of common attributes, and identifying class prototypes. Interval-valued membership functions and predicates are then derived from these prototypes, leading to the creation of an interpretable classifier. Empirical evaluations on 14 datasets, both public and synthetic, are presented to demonstrate the superior performance of T2-LFPC based on the accuracy and Jaccard index. The proposed method enables linguistic descriptions of classes, insight into attribute semantics, class property definitions, and an understanding of data space partitioning. This innovative approach enhances knowledge discovery by addressing the challenges posed by the complexity and size of modern datasets.",
@@ -87,7 +87,7 @@ const generatedBibEntries = {
         "type": "article",
         "url": "https://ieeexplore.ieee.org/document/10603435/",
         "volume": "",
-        "year": "2024"
+        "year": "2025"
     },
     "Kabir2017Overlap": {
         "abstract": "In computing the similarity of intervals, current similarity measures such as the commonly used Jaccard and Dice measures are at times not sensitive to changes in the width of intervals, producing equal similarities for substantially different pairs of intervals. To address this, we propose a new similarity measure that uses a bi-directional approach to determine interval similarity. For each direction, the overlapping ratio of the given interval in a pair with the other interval is used as a measure of uni-directional similarity. We show that the proposed measure satisfies all common properties of a similarity measure, while also being invariant in respect to multiplication of the interval endpoints and exhibiting linear growth in respect to linearly increasing overlap. Further, we compare the behavior of the proposed measure with the highly popular Jaccard and Dice similarity measures, highlighting that the proposed approach is more sensitive to changes in interval widths. Finally, we show that the proposed similarity is bounded by the Jaccard and the Dice similarity, thus providing a reliable alternative.",
